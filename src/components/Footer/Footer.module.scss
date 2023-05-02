@@ -1,0 +1,19 @@
+.footer {
+  align-items: center;
+  background-color: #D9D9D9;
+  bottom: 0;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+  div {
+    display: flex;
+    gap: 50px;
+  }
+  span {
+    color: #041833;
+    font-size: 24px;
+    text-align: right;
+  }
+}
