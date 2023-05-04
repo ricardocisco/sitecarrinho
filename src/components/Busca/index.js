@@ -1,6 +1,7 @@
 import styles from './Busca.module.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { mudarBusca, resetarBusca } from 'store/reducers/busca';
+import { AiOutlineSearch } from 'react-icons/ai'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
