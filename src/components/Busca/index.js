@@ -13,6 +13,7 @@ export default function Busca() {
   }, [location.pathname, dispatch])
   return (
     <div className={styles.busca}>
+      <AiOutlineSearch size={23} className={styles.icone} />
       <input
         className={styles.input}
         placeholder="O que você procura?"
