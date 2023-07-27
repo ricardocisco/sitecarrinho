@@ -1,3 +1,5 @@
+@import 'styles/breakpoints';
+
 .carrinho {
   align-items: flex-end;
   display: flex;
@@ -14,6 +16,10 @@
   max-width: 800px;
   padding: 16px;
   width: 100%;
+
+  @media (max-width: $mobile-sm) {
+    font-size: 14px;
+  }
 }
 
 .finalizar {
@@ -23,5 +29,9 @@
   color: white;
   cursor: pointer;
   font-size: 24px;
-  padding: 15px 40px;
+  padding: 15px 20px;
+
+  @media (max-width: $mobile-sm) {
+    font-size: 18px;
+  }
 }
